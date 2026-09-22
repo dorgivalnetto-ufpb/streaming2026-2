@@ -7,7 +7,8 @@ public class Filme extends Conteudo implements Reproduzivel {
     private int duracao;
     private int anoLancamento;
 
-    public Filme(int duracao, int anoLancamento, int idConteudo, String titulo, String descricao, int classficacaoIndicativa){
+
+    public Filme(int idConteudo, String titulo, String descricao,  int classficacaoIndicativa, int duracao, int anoLancamento){
         super(idConteudo, titulo, descricao, classficacaoIndicativa);
 
         //validações
