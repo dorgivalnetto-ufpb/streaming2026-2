@@ -8,11 +8,10 @@ public class Main{
 
         Conteudo filme1 = new Filme(
                 144,
-                2026,
-                1,
                 "Homem-Aranha: Um novo dia",
-                "Quatro anos se passaram e Peter Paker atua como um herói em tempo integral em Nova Iorque",
-                12);
+                "Quatro anos se passaram e Peter Paker atua como um herói em tempo integral em Nova Iorque",6,
+                120,
+                2025);
 
         System.out.println(filme1.getTitulo());
 

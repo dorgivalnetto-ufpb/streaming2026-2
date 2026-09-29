@@ -1,6 +1,8 @@
 package br.ufpb.streaming.catalogo;
 
-public abstract class Conteudo {
+import br.ufpb.streaming.interfaces.Avaliavel;
+
+public abstract class Conteudo implements Avaliavel {
 
     private final int idConteudo;
     private String titulo;
